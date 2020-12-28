@@ -72,14 +72,14 @@ Material:
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
-    - _Chopines: 0.11
+    - _Chopines: 0.4
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FlowSpeed: -0.05
     - _FlowStrength: 0.01
-    - _FoamDistance: 1.5
+    - _FoamDistance: 0.8
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
