@@ -5,20 +5,25 @@ using UnityEngine;
 public class OceanController : MonoBehaviour
 {
     [SerializeField] private float _maxHeight = 10f;
-    [SerializeField] private float _maxWaveHeight = 0.7f;
-    [SerializeField] private Material _oceanMat;
     [SerializeField] private float _step = 1f;
+    [SerializeField] private float _waveStep = 1f;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.Space) && transform.position.y < _maxHeight)
         {
             transform.position += Vector3.up * (Time.deltaTime * _step);
+            float curChopines = GetComponent<Renderer>().material.GetFloat("_Chopines");
+            GetComponent<Renderer>().material.SetFloat("_Chopines", curChopines + Time.deltaTime * _waveStep);
+            Debug.Log(curChopines);
         }
-        if (Input.GetKey(KeyCode.Z))
+        else if (transform.position.y > 0)
         {
             transform.position -= Vector3.up * (Time.deltaTime * _step);
+            float curChopines = GetComponent<Renderer>().material.GetFloat("_Chopines");
+            GetComponent<Renderer>().material.SetFloat("_Chopines", curChopines - Time.deltaTime * _waveStep);
+
         }
     }
 }
