@@ -16,7 +16,7 @@ public class OceanController : MonoBehaviour
             transform.position += Vector3.up * (Time.deltaTime * _step);
             float curChopines = GetComponent<Renderer>().material.GetFloat("_Chopines");
             GetComponent<Renderer>().material.SetFloat("_Chopines", curChopines + Time.deltaTime * _waveStep);
-            Debug.Log(curChopines);
+            //Debug.Log(curChopines);
         }
         else if (transform.position.y > 0)
         {

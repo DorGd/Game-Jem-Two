@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floatThreshold: 2
   waterDensity: 0.1
-  downForce: 0
+  downForce: 10
 --- !u!114 &3923387723134788651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,6 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 5679280104145979056}
   rigidBody: {fileID: 7503902578776920460}
+  contactThreshold: 10
 --- !u!95 &5679280104145979056
 Animator:
   serializedVersion: 3

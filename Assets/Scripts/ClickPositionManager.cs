@@ -24,7 +24,7 @@ public class ClickPositionManager : MonoBehaviour
                 clickPosition = hit.point;
             }
 
-            Debug.Log(clickPosition);
+            //Debug.Log(clickPosition);
             Vector3 explosionPos = clickPosition;
             GameObject ripple = Instantiate(rippleEffect, clickPosition, Quaternion.Euler(-90, 0, 0));
             Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);

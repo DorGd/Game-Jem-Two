@@ -45,9 +45,10 @@ GameObject:
   - component: {fileID: 3949946066859216610}
   - component: {fileID: 1692514424302959256}
   - component: {fileID: 7411860337467761269}
+  - component: {fileID: 7600586308808824940}
   m_Layer: 0
   m_Name: Cylinder_6
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,6 +116,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7600586308808824940
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017702610563291051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6178688207590197940, guid: c95c587002c4bd24caf46fdcb35181af, type: 3}
 --- !u!1 &2831589119239311346
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,9 +141,10 @@ GameObject:
   - component: {fileID: 4107436804660182406}
   - component: {fileID: 2372771856029439594}
   - component: {fileID: 7241549523394937191}
+  - component: {fileID: 4118895196311599497}
   m_Layer: 0
   m_Name: Cylinder_2
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,6 +212,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4118895196311599497
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2831589119239311346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8980115498675584859, guid: c95c587002c4bd24caf46fdcb35181af, type: 3}
 --- !u!1 &4006112647851818093
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,9 +237,10 @@ GameObject:
   - component: {fileID: 4341760546886146478}
   - component: {fileID: 3436604430610773050}
   - component: {fileID: 661362812475302059}
+  - component: {fileID: 5282684979654475867}
   m_Layer: 0
   m_Name: Cylinder_5
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,6 +308,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5282684979654475867
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4006112647851818093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1846951836829590767, guid: c95c587002c4bd24caf46fdcb35181af, type: 3}
 --- !u!1 &4128392755318500005
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,9 +395,10 @@ GameObject:
   - component: {fileID: 6337975877221719685}
   - component: {fileID: 9099274672669709006}
   - component: {fileID: 1448619150927891219}
+  - component: {fileID: 4045223882599915302}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -420,6 +466,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4045223882599915302
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4957797835591203801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: c95c587002c4bd24caf46fdcb35181af, type: 3}
 --- !u!1 &5011175839229553730
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,9 +524,10 @@ GameObject:
   - component: {fileID: 3667606076830156463}
   - component: {fileID: 2097103717951395957}
   - component: {fileID: 5837709388182601798}
+  - component: {fileID: 6374525466008045090}
   m_Layer: 0
   m_Name: Cylinder_4
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -534,6 +595,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6374525466008045090
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5654387541899039587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4925462368784061505, guid: c95c587002c4bd24caf46fdcb35181af, type: 3}
 --- !u!1 &6716672330826458771
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,9 +727,10 @@ GameObject:
   - component: {fileID: 4458152875704445419}
   - component: {fileID: 260560983964218494}
   - component: {fileID: 7068226116386504663}
+  - component: {fileID: 82812160459682887}
   m_Layer: 0
   m_Name: Cylinder_3
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -722,6 +798,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &82812160459682887
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8748101372310701068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1856150034111365774, guid: c95c587002c4bd24caf46fdcb35181af, type: 3}
 --- !u!1 &8861604699274425971
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    public static PlayerManager Instance { get; private set; }
     [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody rigidBody;
-    private bool _isDead;
-
+    private bool _isDead = false;
+    private bool _saved = false;
+    private Vector3 validDirection = Vector3.up;  // What you consider to be upwards
+    [SerializeField] private float contactThreshold = 15f;          // Acceptable difference in degrees
 
     // Update is called once per frame
     void Update()
@@ -29,14 +30,40 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.tag == "Island")
+        bool topCollision = false;
+        if (collision.gameObject.tag == "Island" && !_saved )
         {
-            Debug.Log("landed on an island");
-            //add points.
-
-            // disable player movement.
+            if (rigidBody.velocity.magnitude <= 0.1f)
+            {
+                for (int k = 0; k < collision.contacts.Length; k++)
+                {
+                    if (Vector3.Angle(collision.contacts[k].normal, validDirection) <= contactThreshold)
+                    {
+                        topCollision = true;
+                       
+                    }
+                }
+                if (topCollision)
+                {
+                    // Collided with a surface facing mostly upwards
+                    Debug.Log("landed on an island");
+                    //add points.
+                    GameController.Instance.AddScore(1);
+                    AudioManager.Instance.PlaySound(AudioManager.Sound.SoundName.PlayerSaved);
+                    _saved = true;
+                }
+            }
         }  
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Island" && _saved)
+        {
+            GameController.Instance.AddScore(-1);
+            _saved = false;
+        }
     }
 }

@@ -100,7 +100,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DarkFoamColor: {r: 0, g: 0.3029967, b: 0.5660378, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LightFoamColor: {r: 0.9528302, g: 0.9033909, b: 0.9033909, a: 0}
+    - _LightFoamColor: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0.38431373}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _WaterColor: {r: 0.03604484, g: 0.4725396, b: 0.8490566, a: 0}
+    - _WaterColor: {r: 0.03604484, g: 0.4725396, b: 0.8490566, a: 0.5176471}
   m_BuildTextureStacks: []
