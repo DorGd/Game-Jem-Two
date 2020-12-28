@@ -39,7 +39,7 @@ public class Buoyancy : MonoBehaviour {
         {
             distanceToWave = -hit.distance;
         }
-        Debug.Log(distanceToWave);
+        //Debug.Log(distanceToWave);
 
         return distanceToWave;
     }
