@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7503902578776920461}
   - component: {fileID: 7503902578776920460}
   - component: {fileID: 7503902578776920463}
+  - component: {fileID: -2819093812047226317}
   m_Layer: 0
   m_Name: FloatingPerson
   m_TagString: target
@@ -77,6 +78,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7405439, y: 4.428456, z: 3.7256384}
   m_Center: {x: 0.12972805, y: 0.25144053, z: -0.23552132}
+--- !u!114 &-2819093812047226317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503902578776920459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60bf0b8e2cc14d4f996cf7dd2fe99a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatThreshold: 2
+  waterDensity: 0.1
+  downForce: 0
 --- !u!1001 &5628683550153695016
 PrefabInstance:
   m_ObjectHideFlags: 0
