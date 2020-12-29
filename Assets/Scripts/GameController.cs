@@ -29,8 +29,8 @@ public class GameController : MonoBehaviour
     private int _score;
     private float _gameOverTimer = 0;
     private int _highScore;
-    private int _playerLives;
-
+    private int _totalPlayers = 6;
+    private int _deadPlayers = 0;
 
     private Pause _pause;
 
@@ -47,8 +47,6 @@ public class GameController : MonoBehaviour
 
         _highScore = PlayerPrefs.GetInt("HighScore", 0);
         highScoreText.text = _highScore.ToString();
-
-        _playerLives = playerStartingLives;
     }
 
     private void Update()
@@ -62,11 +60,8 @@ public class GameController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            if (_playerLives > 0) _pause.startGame();
-            else restartGame();
-        }
+
+
     }
 
     private void GameOver()
@@ -99,16 +94,13 @@ public class GameController : MonoBehaviour
 
     public void PlayerHit()
     {
-        _playerLives--;
-        if (_playerLives <= 0)
-        {
-            StartGameOver();
-        }
+        _deadPlayers++;
+        AddScore(0);
     }
 
     private void StartGameOver()
     {
-        _gameOverTimer = deathDelayTime;
+        GameOver();
     }
 
 
@@ -123,6 +115,11 @@ public class GameController : MonoBehaviour
         {
             _highScore = _score;
             highScoreText.text = _highScore.ToString();
+        }
+        Debug.Log(_deadPlayers + _score);
+        if (_deadPlayers + _score == _totalPlayers)
+        {
+            StartGameOver();
         }
     }
 }

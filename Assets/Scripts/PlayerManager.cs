@@ -25,8 +25,6 @@ public class PlayerManager : MonoBehaviour
         {
             GameController.Instance.PlayerHit();
             AudioManager.Instance.PlaySound(AudioManager.Sound.SoundName.EnemyHitPlayer);
-            animator.SetBool("Alive", false);
-            _isDead = true;
             this.gameObject.SetActive(false);        }
     }
 

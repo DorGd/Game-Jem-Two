@@ -37,7 +37,6 @@ public class AudioManager : MonoBehaviour
         {
 
             if (_audioSources[soundName].loop && _audioSources[soundName].isPlaying) return;
-            Debug.Log(_audioSources[soundName].clip.name);
             _audioSources[soundName].Play();
         }
     }
