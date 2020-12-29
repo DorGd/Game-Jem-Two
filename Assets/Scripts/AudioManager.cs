@@ -13,8 +13,7 @@ public class AudioManager : MonoBehaviour
 
     private Dictionary<Sound.SoundName, AudioSource> _audioSources = new Dictionary<Sound.SoundName, AudioSource>();
 
-    private void Awake()
-    {
+    private void Awake(){
         if (Instance != null) return;
 
         DontDestroyOnLoad(gameObject);
@@ -29,7 +28,6 @@ public class AudioManager : MonoBehaviour
 
             _audioSources[sound.soundName] = source;
         }
-
         PlaySound(Sound.SoundName.PlayOnLoad);
     }
 
@@ -37,7 +35,9 @@ public class AudioManager : MonoBehaviour
     {
         if (_audioSources.ContainsKey(soundName))
         {
+
             if (_audioSources[soundName].loop && _audioSources[soundName].isPlaying) return;
+            Debug.Log(_audioSources[soundName].clip.name);
             _audioSources[soundName].Play();
         }
     }
