@@ -8,6 +8,7 @@ TagManager:
   - Fire
   - Island
   - Enemy
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Island
   - 
   - 
   - 

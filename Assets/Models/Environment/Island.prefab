@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8579039556704790425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: big_island
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 1692514424302959256}
   - component: {fileID: 7411860337467761269}
   - component: {fileID: 7600586308808824940}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder_6
   m_TagString: Island
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 2372771856029439594}
   - component: {fileID: 7241549523394937191}
   - component: {fileID: 4118895196311599497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder_2
   m_TagString: Island
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 3436604430610773050}
   - component: {fileID: 661362812475302059}
   - component: {fileID: 5282684979654475867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder_5
   m_TagString: Island
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 745844212223737912}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Subdivision_Surface_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362,7 +362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8275551767674711764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Subdivision_Surface_1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 9099274672669709006}
   - component: {fileID: 1448619150927891219}
   - component: {fileID: 4045223882599915302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder
   m_TagString: Island
   m_Icon: {fileID: 0}
@@ -489,7 +489,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 538766088923070724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: second_floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 2097103717951395957}
   - component: {fileID: 5837709388182601798}
   - component: {fileID: 6374525466008045090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder_4
   m_TagString: Island
   m_Icon: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6361379272218028852}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Subdivision_Surface_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +649,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5391112340960732760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Subdivision_Surface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9177616091625942236}
   - component: {fileID: 8365051037613405797}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Island
   m_TagString: Island
   m_Icon: {fileID: 0}
@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 260560983964218494}
   - component: {fileID: 7068226116386504663}
   - component: {fileID: 82812160459682887}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder_3
   m_TagString: Island
   m_Icon: {fileID: 0}
@@ -821,7 +821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4192268738399895652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: big_island_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,7 +852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5684811677364876526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: big_island_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
