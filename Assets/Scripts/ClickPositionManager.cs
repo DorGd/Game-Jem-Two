@@ -30,10 +30,13 @@ public class ClickPositionManager : MonoBehaviour
             Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
             foreach (Collider col in colliders)
             {
-                Rigidbody rb = col.GetComponent<Rigidbody>();
+                if (col.gameObject.tag != "Enemy")
+                {
+                    Rigidbody rb = col.GetComponent<Rigidbody>();
 
-                if (rb != null)
-                    rb.AddExplosionForce(power, explosionPos, radius, 0.0F);
+                    if (rb != null)
+                        rb.AddExplosionForce(power, explosionPos, radius, 0.0F);
+                }
             }
     
 }
