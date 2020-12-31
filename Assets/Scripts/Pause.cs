@@ -29,7 +29,7 @@ public class Pause : MonoBehaviour
 
         Time.timeScale = 1;
         GameController.isPaused = false;
-        pauseText.text = "Pause";
+        
 
         //turn UI game elements on.
         startScreen.SetActive(false);
